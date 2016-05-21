@@ -72,14 +72,22 @@
                                     <constraint firstAttribute="height" constant="195" id="eG4-Xd-Huf"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player attacked wild Kimara!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aH7-dQ-BFc">
+                                <rect key="frame" x="98" y="54" width="409" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h4L-Wb-WBA" secondAttribute="bottom" constant="63" id="4YS-pR-o9C"/>
                             <constraint firstAttribute="bottom" secondItem="3aA-gm-Imc" secondAttribute="bottom" id="8BJ-b1-fC7"/>
                             <constraint firstItem="skO-6q-Dfm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Rq-Et-fw2"/>
+                            <constraint firstItem="aH7-dQ-BFc" firstAttribute="centerY" secondItem="lH4-Ga-QSO" secondAttribute="centerY" id="ACT-y4-j4U"/>
                             <constraint firstItem="lH4-Ga-QSO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="14" id="Dck-gN-62z"/>
                             <constraint firstItem="lH4-Ga-QSO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ERc-jx-0MC"/>
+                            <constraint firstItem="aH7-dQ-BFc" firstAttribute="centerX" secondItem="lH4-Ga-QSO" secondAttribute="centerX" id="FwU-mQ-zpH"/>
                             <constraint firstItem="FwU-EN-FIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="14" id="HBV-CU-5N6"/>
                             <constraint firstItem="skO-6q-Dfm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Hgr-cQ-623"/>
                             <constraint firstAttribute="trailing" secondItem="skO-6q-Dfm" secondAttribute="trailing" id="IX2-ae-Dkd"/>
