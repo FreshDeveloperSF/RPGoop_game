@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC09326F1CF0D32600F4CAC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09326E1CF0D32600F4CAC6 /* AppDelegate.swift */; };
+		EC0932711CF0D32600F4CAC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0932701CF0D32600F4CAC6 /* ViewController.swift */; };
+		EC0932741CF0D32600F4CAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0932721CF0D32600F4CAC6 /* Main.storyboard */; };
+		EC0932761CF0D32600F4CAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0932751CF0D32600F4CAC6 /* Assets.xcassets */; };
+		EC0932791CF0D32600F4CAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0932771CF0D32600F4CAC6 /* LaunchScreen.storyboard */; };
+		EC0932841CF0D32600F4CAC6 /* rpgoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0932831CF0D32600F4CAC6 /* rpgoopTests.swift */; };
+		EC09328F1CF0D32700F4CAC6 /* rpgoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09328E1CF0D32700F4CAC6 /* rpgoopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC0932801CF0D32600F4CAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0932631CF0D32600F4CAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC09326A1CF0D32600F4CAC6;
+			remoteInfo = rpgoop;
+		};
+		EC09328B1CF0D32700F4CAC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0932631CF0D32600F4CAC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC09326A1CF0D32600F4CAC6;
+			remoteInfo = rpgoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC09326B1CF0D32600F4CAC6 /* rpgoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpgoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC09326E1CF0D32600F4CAC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC0932701CF0D32600F4CAC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC0932731CF0D32600F4CAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0932751CF0D32600F4CAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0932781CF0D32600F4CAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC09327A1CF0D32600F4CAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC09327F1CF0D32600F4CAC6 /* rpgoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rpgoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0932831CF0D32600F4CAC6 /* rpgoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpgoopTests.swift; sourceTree = "<group>"; };
+		EC0932851CF0D32600F4CAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC09328A1CF0D32700F4CAC6 /* rpgoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rpgoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC09328E1CF0D32700F4CAC6 /* rpgoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rpgoopUITests.swift; sourceTree = "<group>"; };
+		EC0932901CF0D32700F4CAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0932681CF0D32600F4CAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC09327C1CF0D32600F4CAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0932871CF0D32700F4CAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0932621CF0D32600F4CAC6 = {
+			isa = PBXGroup;
+			children = (
+				EC09326D1CF0D32600F4CAC6 /* rpgoop */,
+				EC0932821CF0D32600F4CAC6 /* rpgoopTests */,
+				EC09328D1CF0D32700F4CAC6 /* rpgoopUITests */,
+				EC09326C1CF0D32600F4CAC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC09326C1CF0D32600F4CAC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC09326B1CF0D32600F4CAC6 /* rpgoop.app */,
+				EC09327F1CF0D32600F4CAC6 /* rpgoopTests.xctest */,
+				EC09328A1CF0D32700F4CAC6 /* rpgoopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC09326D1CF0D32600F4CAC6 /* rpgoop */ = {
+			isa = PBXGroup;
+			children = (
+				EC09326E1CF0D32600F4CAC6 /* AppDelegate.swift */,
+				EC0932701CF0D32600F4CAC6 /* ViewController.swift */,
+				EC0932721CF0D32600F4CAC6 /* Main.storyboard */,
+				EC0932751CF0D32600F4CAC6 /* Assets.xcassets */,
+				EC0932771CF0D32600F4CAC6 /* LaunchScreen.storyboard */,
+				EC09327A1CF0D32600F4CAC6 /* Info.plist */,
+			);
+			path = rpgoop;
+			sourceTree = "<group>";
+		};
+		EC0932821CF0D32600F4CAC6 /* rpgoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0932831CF0D32600F4CAC6 /* rpgoopTests.swift */,
+				EC0932851CF0D32600F4CAC6 /* Info.plist */,
+			);
+			path = rpgoopTests;
+			sourceTree = "<group>";
+		};
+		EC09328D1CF0D32700F4CAC6 /* rpgoopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC09328E1CF0D32700F4CAC6 /* rpgoopUITests.swift */,
+				EC0932901CF0D32700F4CAC6 /* Info.plist */,
+			);
+			path = rpgoopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC09326A1CF0D32600F4CAC6 /* rpgoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0932931CF0D32700F4CAC6 /* Build configuration list for PBXNativeTarget "rpgoop" */;
+			buildPhases = (
+				EC0932671CF0D32600F4CAC6 /* Sources */,
+				EC0932681CF0D32600F4CAC6 /* Frameworks */,
+				EC0932691CF0D32600F4CAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rpgoop;
+			productName = rpgoop;
+			productReference = EC09326B1CF0D32600F4CAC6 /* rpgoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC09327E1CF0D32600F4CAC6 /* rpgoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0932961CF0D32700F4CAC6 /* Build configuration list for PBXNativeTarget "rpgoopTests" */;
+			buildPhases = (
+				EC09327B1CF0D32600F4CAC6 /* Sources */,
+				EC09327C1CF0D32600F4CAC6 /* Frameworks */,
+				EC09327D1CF0D32600F4CAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0932811CF0D32600F4CAC6 /* PBXTargetDependency */,
+			);
+			name = rpgoopTests;
+			productName = rpgoopTests;
+			productReference = EC09327F1CF0D32600F4CAC6 /* rpgoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC0932891CF0D32700F4CAC6 /* rpgoopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0932991CF0D32700F4CAC6 /* Build configuration list for PBXNativeTarget "rpgoopUITests" */;
+			buildPhases = (
+				EC0932861CF0D32700F4CAC6 /* Sources */,
+				EC0932871CF0D32700F4CAC6 /* Frameworks */,
+				EC0932881CF0D32700F4CAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC09328C1CF0D32700F4CAC6 /* PBXTargetDependency */,
+			);
+			name = rpgoopUITests;
+			productName = rpgoopUITests;
+			productReference = EC09328A1CF0D32700F4CAC6 /* rpgoopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0932631CF0D32600F4CAC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jason Leung";
+				TargetAttributes = {
+					EC09326A1CF0D32600F4CAC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC09327E1CF0D32600F4CAC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC09326A1CF0D32600F4CAC6;
+					};
+					EC0932891CF0D32700F4CAC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC09326A1CF0D32600F4CAC6;
+					};
+				};
+			};
+			buildConfigurationList = EC0932661CF0D32600F4CAC6 /* Build configuration list for PBXProject "rpgoop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0932621CF0D32600F4CAC6;
+			productRefGroup = EC09326C1CF0D32600F4CAC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC09326A1CF0D32600F4CAC6 /* rpgoop */,
+				EC09327E1CF0D32600F4CAC6 /* rpgoopTests */,
+				EC0932891CF0D32700F4CAC6 /* rpgoopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0932691CF0D32600F4CAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0932791CF0D32600F4CAC6 /* LaunchScreen.storyboard in Resources */,
+				EC0932761CF0D32600F4CAC6 /* Assets.xcassets in Resources */,
+				EC0932741CF0D32600F4CAC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC09327D1CF0D32600F4CAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0932881CF0D32700F4CAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0932671CF0D32600F4CAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0932711CF0D32600F4CAC6 /* ViewController.swift in Sources */,
+				EC09326F1CF0D32600F4CAC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC09327B1CF0D32600F4CAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0932841CF0D32600F4CAC6 /* rpgoopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0932861CF0D32700F4CAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC09328F1CF0D32700F4CAC6 /* rpgoopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC0932811CF0D32600F4CAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC09326A1CF0D32600F4CAC6 /* rpgoop */;
+			targetProxy = EC0932801CF0D32600F4CAC6 /* PBXContainerItemProxy */;
+		};
+		EC09328C1CF0D32700F4CAC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC09326A1CF0D32600F4CAC6 /* rpgoop */;
+			targetProxy = EC09328B1CF0D32700F4CAC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC0932721CF0D32600F4CAC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0932731CF0D32600F4CAC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0932771CF0D32600F4CAC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0932781CF0D32600F4CAC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0932911CF0D32700F4CAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC0932921CF0D32700F4CAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0932941CF0D32700F4CAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rpgoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleung.rpgoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC0932951CF0D32700F4CAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rpgoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleung.rpgoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC0932971CF0D32700F4CAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rpgoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleung.rpgoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rpgoop.app/rpgoop";
+			};
+			name = Debug;
+		};
+		EC0932981CF0D32700F4CAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rpgoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleung.rpgoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rpgoop.app/rpgoop";
+			};
+			name = Release;
+		};
+		EC09329A1CF0D32700F4CAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rpgoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleung.rpgoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rpgoop;
+			};
+			name = Debug;
+		};
+		EC09329B1CF0D32700F4CAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rpgoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonleung.rpgoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rpgoop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0932661CF0D32600F4CAC6 /* Build configuration list for PBXProject "rpgoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0932911CF0D32700F4CAC6 /* Debug */,
+				EC0932921CF0D32700F4CAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0932931CF0D32700F4CAC6 /* Build configuration list for PBXNativeTarget "rpgoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0932941CF0D32700F4CAC6 /* Debug */,
+				EC0932951CF0D32700F4CAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0932961CF0D32700F4CAC6 /* Build configuration list for PBXNativeTarget "rpgoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0932971CF0D32700F4CAC6 /* Debug */,
+				EC0932981CF0D32700F4CAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0932991CF0D32700F4CAC6 /* Build configuration list for PBXNativeTarget "rpgoopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC09329A1CF0D32700F4CAC6 /* Debug */,
+				EC09329B1CF0D32700F4CAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0932631CF0D32600F4CAC6 /* Project object */;
+}
