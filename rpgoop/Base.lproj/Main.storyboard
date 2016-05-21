@@ -50,22 +50,37 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="FwU-EN-FIA">
-                                <rect key="frame" x="0.0" y="384" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="FwU-EN-FIA">
+                                <rect key="frame" x="-13" y="255" width="264" height="262"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="195" id="CHd-P8-UWi"/>
+                                    <constraint firstAttribute="width" constant="194" id="Id4-BT-dOE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="enem1" translatesAutoresizingMaskIntoConstraints="NO" id="h4L-Wb-WBA">
+                                <rect key="frame" x="321" y="271" width="264" height="262"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="D0b-Cm-0OF"/>
+                                    <constraint firstAttribute="height" constant="195" id="eG4-Xd-Huf"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h4L-Wb-WBA" secondAttribute="bottom" constant="63" id="4YS-pR-o9C"/>
                             <constraint firstAttribute="bottom" secondItem="3aA-gm-Imc" secondAttribute="bottom" id="8BJ-b1-fC7"/>
                             <constraint firstItem="skO-6q-Dfm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Rq-Et-fw2"/>
+                            <constraint firstItem="FwU-EN-FIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="14" id="HBV-CU-5N6"/>
                             <constraint firstItem="skO-6q-Dfm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Hgr-cQ-623"/>
                             <constraint firstAttribute="trailing" secondItem="skO-6q-Dfm" secondAttribute="trailing" id="IX2-ae-Dkd"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oee-dh-L7z" secondAttribute="bottom" id="Ji8-sX-Ha7"/>
+                            <constraint firstAttribute="trailing" secondItem="h4L-Wb-WBA" secondAttribute="trailing" constant="31" id="QOe-pU-1AX"/>
                             <constraint firstItem="oee-dh-L7z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qh1-JT-3mg"/>
                             <constraint firstItem="oee-dh-L7z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="So3-38-pOa"/>
                             <constraint firstAttribute="bottom" secondItem="oee-dh-L7z" secondAttribute="bottom" id="UZo-oQ-bBW"/>
                             <constraint firstAttribute="trailing" secondItem="oee-dh-L7z" secondAttribute="trailing" id="hZa-Qw-HZS"/>
                             <constraint firstAttribute="trailing" secondItem="3aA-gm-Imc" secondAttribute="trailing" id="l62-Zq-EHc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FwU-EN-FIA" secondAttribute="bottom" constant="82" id="t1S-an-Qar"/>
                             <constraint firstAttribute="bottom" secondItem="oee-dh-L7z" secondAttribute="bottom" constant="74" id="vek-sS-gYh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="skO-6q-Dfm" secondAttribute="bottom" id="y4B-iv-QMJ"/>
                         </constraints>
@@ -86,6 +101,7 @@
     </scenes>
     <resources>
         <image name="bg" width="768" height="1024"/>
+        <image name="enem1" width="574" height="487"/>
         <image name="ground" width="768" height="164"/>
         <image name="player" width="356" height="475"/>
     </resources>
