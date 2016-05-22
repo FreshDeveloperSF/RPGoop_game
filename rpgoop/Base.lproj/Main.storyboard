@@ -102,18 +102,24 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chest" translatesAutoresizingMaskIntoConstraints="NO" id="OYj-YI-6S6">
-                                <rect key="frame" x="241" y="355" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chest" translatesAutoresizingMaskIntoConstraints="NO" id="OYj-YI-6S6">
+                                <rect key="frame" x="340" y="352" width="281" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="DLh-QS-Jxf"/>
+                                    <constraint firstAttribute="width" constant="200" id="gHO-8Z-UU3"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h4L-Wb-WBA" secondAttribute="bottom" constant="63" id="4YS-pR-o9C"/>
+                            <constraint firstAttribute="trailing" secondItem="OYj-YI-6S6" secondAttribute="trailing" constant="17" id="69m-Kc-USQ"/>
                             <constraint firstAttribute="bottom" secondItem="3aA-gm-Imc" secondAttribute="bottom" id="8BJ-b1-fC7"/>
                             <constraint firstItem="skO-6q-Dfm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Rq-Et-fw2"/>
                             <constraint firstItem="aH7-dQ-BFc" firstAttribute="centerY" secondItem="lH4-Ga-QSO" secondAttribute="centerY" id="ACT-y4-j4U"/>
                             <constraint firstItem="lH4-Ga-QSO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="14" id="Dck-gN-62z"/>
                             <constraint firstItem="lH4-Ga-QSO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ERc-jx-0MC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OYj-YI-6S6" secondAttribute="bottom" constant="79" id="FiQ-Hc-43y"/>
                             <constraint firstItem="aH7-dQ-BFc" firstAttribute="centerX" secondItem="lH4-Ga-QSO" secondAttribute="centerX" id="FwU-mQ-zpH"/>
                             <constraint firstItem="FwU-EN-FIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="14" id="HBV-CU-5N6"/>
                             <constraint firstItem="Vl6-mc-EiT" firstAttribute="centerY" secondItem="aEx-AB-zsU" secondAttribute="centerY" id="HIt-Bt-FUO"/>
@@ -145,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="373" y="349"/>
+            <point key="canvasLocation" x="626" y="385"/>
         </scene>
     </scenes>
     <resources>
